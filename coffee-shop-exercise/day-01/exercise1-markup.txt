@@ -1,0 +1,92 @@
+Exercise1: This is the markup of our coffee shop menu
+
+<title> Welcome to Nitro Coffee! Pay close attention to daily specials! </title>
+
+<menu>
+    <category>
+        <name> Hot Drinks </name>
+        <drink>
+            <name> 
+                In-house Brew
+            </name>
+            <description>
+                Our in-house medium roast is a classic balance between sweet vanilla, nutty hazelnut, and a smooth low acidity to bring everything together. 
+            </description>
+            <price>
+                $2.99
+            </price>
+        </drink>
+
+        <drink>
+            <name> 
+               Espresso
+            </name>
+            <description>
+                A balance between bold and smooth, powerful and sweet, our signature espresso blend is a complex flavor profile. 
+                It features strong notes of semi-sweet chocolate and caramel, with mild acidity and a bright floral finish.
+            </description>
+            <price>
+                $4.99
+            </price>
+        </drink>
+    </category>
+       
+
+    <category>
+        <name> Cold Drinks </name>
+        <drink>
+           <name> 
+                Cold Brew
+           </name>
+           <description>
+                Our bright and delicious coffee blend, brewed over ice to give you a cold coffee freshness with all the flavor of our amazing in-house coffee. 
+           </description>
+           <price>
+                $3.99
+           </price>
+        </drink>
+
+        <drink>
+           <name> 
+                Iced Chai Latte
+           </name>
+           <description>
+                A creamy drink with a kick, this drink features spicy chai tea blended with your choice of milk and poured over ice. 
+           </description>
+           <price>
+                $6.99
+           </price>
+        </drink>
+    
+    </category>
+
+    
+    <category>
+         <name> Pastries </name>
+         <pastry>
+            <name> 
+                Bacon Oatmeal Raisin Cookie
+           </name>
+           <description>
+                An infused bacon, sugar and egg mixture is folded into a perfect blend of oats, flour, raisins and cinnamon to create a soft and chewy textured cookie. 
+           </description>
+           <price>
+                $3.50
+           </price>
+         </pastry>
+
+         <pastry>
+            <name> 
+                Blueberry, Lemon and Thyme Muffin
+           </name>
+           <description>
+                Tart and sweet, this classic blueberry and lemon combination comes with an earthy twist. 
+           </description>
+           <price>
+                $2.50
+           </price>
+         </pastry>
+
+    </category>
+
+</menu>
