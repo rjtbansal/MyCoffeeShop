@@ -1,5 +1,13 @@
+html{
+    height: 100%;
+}
 body{
     font-family: Helvetica;
+    height: inherit;
+}
+
+header{
+    height: inherit;
 }
 
 h1, h2{
@@ -12,6 +20,13 @@ h3{
     font-weight: 100;
 }
 
+.coffee_background {
+    background: url('../assets/coffee-circle.jpg') center/cover;
+    /* background-image: url('../assets/coffee-circle.jpg');
+    background-position: center;
+    background-size: cover; */
+    height: 75%;
+}
 .menu_title{
     background-color: rgba(0,0,0,0.95);
     color: #fff;
