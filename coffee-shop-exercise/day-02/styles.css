@@ -1,0 +1,55 @@
+body{
+    font-family: Helvetica;
+}
+
+h1, h2{
+    font-size: 60px;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.menu_title{
+    background-color: rgba(0,0,0,0.95);
+    color: #fff;
+    width: 285px;
+    height: 185px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.menu_items {
+    list-style: none;
+}
+
+.category {
+    background-color: #FFF0ED;
+}
+
+.cold_category {
+    background-color: #f7f7f7;
+}
+
+.category_title {
+    text-align: center;
+}
+
+.category__item{
+    text-align: center;
+}
+
+.item__description {
+    font-size: 18px;
+    width: 45%;
+    font-style: italic;
+}
+
+.price {
+    color: #5BACC3 ;
+}
+
+
+
