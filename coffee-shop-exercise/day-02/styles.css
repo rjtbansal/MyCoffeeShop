@@ -36,8 +36,24 @@ h3{
     font-size: 50px;
 }
 
-.menu_items {
+.nav_items {
     list-style: none;
+    font-size: 21px;
+}
+
+
+.nav_submenu_items{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+
+.nav_link {
+    font-size: 21px;
+}
+
+.category_section{
+    margin-top: 280px;
 }
 
 .category {
@@ -65,6 +81,7 @@ h3{
 .price {
     color: #5BACC3 ;
 }
+
 
 
 
