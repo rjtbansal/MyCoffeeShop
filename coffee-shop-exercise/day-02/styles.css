@@ -10,6 +10,11 @@ header{
     height: inherit;
 }
 
+.header{
+    height: auto;
+    background-color: #FFF0ED;
+}
+
 h1, h2{
     font-size: 60px;
     font-weight: 100;
@@ -52,13 +57,27 @@ h3{
     font-size: 21px;
 }
 
+.coffee_description{
+    font-size: 21px;
+    width: 28%;
+}
+
+.landing_page_button{
+    background-color: #5BACC3;
+    width: 180px;
+    height: 55px;
+    cursor: pointer;
+}
+
 .category_section{
     margin-top: 280px;
 }
 
-.category {
+.category{
     background-color: #FFF0ED;
 }
+
+
 
 .cold_category {
     background-color: #f7f7f7;
@@ -80,6 +99,10 @@ h3{
 
 .price {
     color: #5BACC3 ;
+}
+
+.discount_text{
+    font-size: 45px;
 }
 
 
