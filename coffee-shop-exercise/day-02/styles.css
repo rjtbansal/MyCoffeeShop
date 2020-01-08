@@ -15,6 +15,14 @@ header{
     background-color: #FFF0ED;
 }
 
+#logobeans_image {
+    height: 120px;
+}
+
+.illustration{
+    height: 238px;
+}
+
 h1, h2{
     font-size: 60px;
     font-weight: 100;
@@ -69,6 +77,10 @@ h3{
     cursor: pointer;
 }
 
+.big_coffee_bag{
+    height: 548px;
+}
+
 .category_section{
     margin-top: 280px;
 }
@@ -103,6 +115,10 @@ h3{
 
 .discount_text{
     font-size: 45px;
+}
+
+.icon{
+    height: 50px;
 }
 
 
