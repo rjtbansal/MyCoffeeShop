@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: Helvetica;
+    height: inherit;
+}
+
+header{
+    height: inherit;
+}
+
+.header{
+    height: auto;
+    background-color: #FFF0ED;
+}
+
+#logobeans_image {
+    height: 7.5rem;
+}
+
+.illustration{
+    height: 14.875rem;
+}
+
+h1, h2{
+    font-size: 3.75rem;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 2.06rem;
+    font-weight: 100;
+}
+
+.coffee_background {
+    background: url('../assets/coffee-circle.jpg') center/cover;
+    /* background-image: url('../assets/coffee-circle.jpg');
+    background-position: center;
+    background-size: cover; */
+    height: 75%;
+}
+.menu_title{
+    background-color: rgba(0,0,0,0.95);
+    color: #fff;
+    width: 17.8rem;
+    height: 11.56rem;
+    text-align: center;
+    font-size: 3.1rem;
+}
+
+.nav_items {
+    list-style: none;
+    font-size: 1.31rem;
+}
+
+
+.nav_submenu_items{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+
+.nav_link {
+    font-size: 1.31rem;
+}
+
+.coffee_description{
+    font-size: 1.31rem;
+    width: 28%;
+}
+
+.landing_page_button{
+    background-color: #5BACC3;
+    width: 11.25rem;
+    height: 3.44rem;
+    cursor: pointer;
+}
+
+.big_coffee_bag{
+    height: 34.25rem;
+}
+
+.category_section{
+    margin-top: 21.25rem;
+}
+
+.category{
+    background-color: #FFF0ED;
+}
+
+
+
+.cold_category {
+    background-color: #f7f7f7;
+}
+
+.category_title {
+    text-align: center;
+}
+
+.category__item{
+    text-align: center;
+}
+
+.item__description {
+    font-size: 1.125rem;
+    width: 45%;
+    font-style: italic;
+}
+
+.price {
+    color: #5BACC3 ;
+}
+
+.discount_text{
+    font-size: 2.813rem;
+}
+
+.icon{
+    height: 3.125rem;
+}
+
+
+
+
