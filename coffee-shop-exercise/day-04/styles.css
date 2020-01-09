@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body{
+    font-family: Helvetica;
+    height: inherit;
+    margin: 0;
+}
+
+header{
+    height: inherit;
+}
+
+.header{
+    height: auto;
+    background-color: #FFF0ED;
+}
+
+.main_nav{
+    background-color: #FFF0ED;
+    height: 20%;
+}
+
+#logobeans_image {
+    height: 7.5rem;
+}
+
+#nitro_title{
+    display: inline-block;
+}
+
+.illustration{
+    height: 14.875rem;
+    
+}
+
+h1, h2{
+    font-size: 3.75rem;
+    font-weight: 100;
+    margin:0;
+}
+
+h3{
+    font-size: 2.06rem;
+    font-weight: 100;
+}
+
+
+
+.nav_items {
+    list-style: none;
+    margin-top: 0;
+    display: inline-block;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+
+
+.nav_submenu_items{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+
+a[href]{
+    text-decoration: none;
+    color: black;
+}
+
+ul li{
+    display: inline-block;
+}
+.nav_link {
+    font-size: 1.31rem;
+    /* display: inline-block; */
+    margin-left: 2rem;
+}
+
+.coffee_description{
+    font-size: 1.31rem;
+    width: 28%;
+}
+
+.landing_page_button{
+    background-color: #5BACC3;
+    width: 11.25rem;
+    height: 3.44rem;
+    cursor: pointer;
+}
+
+.big_coffee_bag{
+    height: 34.25rem;
+}
+
+
+
+
+
+
