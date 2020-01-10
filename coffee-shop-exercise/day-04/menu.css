@@ -13,11 +13,13 @@
     height: 11.56rem;
     text-align: center;
     font-size: 3.1rem;
+    margin: 0 auto;
 }
 
-.seperator{
+a.colored_link, .seperator, .price{
     color: #5BACC3 ;
 }
+
 
 
 .category{
@@ -43,9 +45,6 @@
     font-style: italic;
 }
 
-.price {
-    color: #5BACC3 ;
-}
 
 .discount_text{
     font-size: 2.813rem;
