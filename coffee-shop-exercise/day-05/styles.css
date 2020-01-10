@@ -18,6 +18,7 @@ header{
 .header{
     height: auto;
     background-color: #FFF0ED;
+    padding-bottom: 2rem;
 }
 
 .main_nav{
@@ -70,6 +71,10 @@ a[href]{
     color: black;
 }
 
+a.colored_link{
+    color: #5BACC3 ;
+}
+
 ul li{
     display: inline-block;
 }
@@ -77,6 +82,10 @@ ul li{
     font-size: 1.31rem;
     /* display: inline-block; */
     margin-left: 2rem;
+}
+
+.coffee-intro{
+    display: inline-block;
 }
 
 .coffee_description{
@@ -93,6 +102,8 @@ ul li{
 
 .big_coffee_bag{
     height: 34.25rem;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .product {
@@ -121,6 +132,7 @@ ul li{
     color: #5BACC3;
     font-size: 2.0625rem;
 }
+
 
 
 
