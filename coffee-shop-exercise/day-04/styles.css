@@ -29,9 +29,6 @@ header{
     height: 7.5rem;
 }
 
-#nitro_title{
-    display: inline-block;
-}
 
 .illustration{
     height: 14.875rem;
@@ -57,6 +54,7 @@ h3{
     display: inline-block;
     margin-left: 1rem;
     vertical-align: middle;
+    margin-bottom: 6rem;
 }
 
 
