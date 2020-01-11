@@ -1,5 +1,5 @@
 .coffee_background {
-    background: url('../assets/coffee-circle.jpg') center/cover;
+    background: url('../../assets/coffee-circle.jpg') center/cover;
     /* background-image: url('../assets/coffee-circle.jpg');
     background-position: center;
     background-size: cover; */
@@ -45,8 +45,9 @@ p.price{
 
 .item__description {
     font-size: 1.125rem;
-    width: 45%;
     font-style: italic;
+    width: 45%;
+    display: inline-block;
 }
 
 
