@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to Nitro</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header class="header">
@@ -35,8 +35,8 @@
             <img class="big_coffee_bag" src="../assets/coffeebeans-hero.png" alt="Coffee Bag">
     </header>
     <main>
-        <section id="products">
-            <h2>Our Products</h2>
+        <section class="products-section">
+            <h2 class="product-header">Our Products</h2>
             <article class="product">
                 <img class="illustration product__image" src="../assets/coffeebeans.png" alt="Coffee Beans">
                 <h3 class="product__title">Coffee Beans</h3>
@@ -52,29 +52,29 @@
                 <h3 class="product__title">In-house brew</h3>
                 <p class="product__price">$2.99</p>
             </article>
-            <button class="landing_page_button">View All</button>
+            <button class="landing_page_button products-section__button">View All</button>
         </section>
 
-        <section>
-            <p class="discount_text">
-                Get 20% off your first order with code: FirstNitro
+        <section class="discount-banner">
+            <p class="discount-banner__text">
+                Get 20% off your first order with code: <span class="banner__text--emphasis">First Nitro</span>
             </p>
         </section>
     </main>
-    <footer class="header">
-        <div>
+    <footer class="footer">
+        <div class="footer__item">
             <h3> Address </h3>
             <address>
                 <p> 503 Broadway Penthouse</p>
                 <p>New York</p>
             </address>
         </div>
-        <div>
+        <div class="footer__item">
             <h3> Hours </h3>
             <p> <strong> Monday - Friday:</strong> 9am - 7pm</p>
             <p> <strong> Saturday - Sunday: </strong> 10am - 5pm</p>
         </div>
-        <div>
+        <div class="footer__item">
             <h3>Social</h3>
             <img class="icon" src="../assets/facebook.png" alt="facebook">
             <img class="icon" src="../assets/yelp.png" alt="yelp">
