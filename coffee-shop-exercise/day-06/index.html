@@ -14,7 +14,7 @@
                 <img id="logobeans_image" src="../assets/logobeans.png"  alt="Nitro">
             </a>
             <h2 class="nav_items">nitro</h2>
-            <ul class="nav_items">
+            <ul class="nav_items nav-items__links">
                 <li class="nav_link">
                     <a href="index.html" >ABOUT</a>
                 </li>
@@ -42,23 +42,47 @@
             <section class="products">
                 <article class="product">
                     <img class="illustration product__image" src="../assets/coffeebeans.png" alt="Coffee Beans">
-                    <h3 class="product__title">Coffee Beans</h3>
-                    <p class="product__price">$18.99</p>
+                    <section class="product-details">
+                        <h3 class="product-details__title">Coffee Beans</h3>
+                        <div class="product-detail">
+                            <p class="product-details__quantity">Pack of 3</p>
+                            <p class="product-details__price">$18.99</p>
+                        </div>
+                    </section>
                 </article>
                 <article class="product">
                     <img class="illustration product__image" src="../assets/coldbrew.png" alt="Cold Brew">
-                    <h3 class="product__title">Cold Brew</h3>
-                    <p class="product__price">$4.99</p>
+                    <section class="product-details">
+                        <h3 class="product-details__title">Cold Brew</h3>
+                        <div class="product-detail">
+                            <p class="product-details__quantity">1 Can</p>
+                            <p class="product-details__price">$4.99</p>
+                        </div>
+                    </section>
                 </article>
                 <article class="product">
                     <img class="illustration product__image" src="../assets/inhousebrew.png" alt="In-House brew">
-                    <h3 class="product__title">In-house brew</h3>
-                    <p class="product__price">$2.99</p>
+                    <section class="product-details">
+                        <h3 class="product-details__title">In-house brew</h3>
+                        <div class="product-detail">
+                            <p class="product-details__quantity">1 Cup</p>
+                            <p class="product-details__price">$2.99</p>
+                        </div>
+                    </section>
                 </article>
             </section>
             <button class="landing_page_button products-section__button">View All</button>
         </section>
-
+        <section class="learn-more">
+            <h1 class="learn-more__title">We're Different</h1>
+            <p class="coffee_description learn-more__description">We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence</p>
+            <section class="learn-more__icons">
+                <img class="learn-more__icon" src="../assets/planting-icon.png" alt="Plant Icon">
+                <img class="learn-more__icon" src="../assets/2-coffee-beans-icon.png" alt="Coffee Beans Icon">
+                <img class="learn-more__icon" src="../assets/coffee-cup-icon.png" alt="">
+            </section>
+            <button class="landing_page_button learn-more__button">Learn More</button>
+        </section>
         <section class="discount-banner">
             <p class="discount-banner__text">
                 Get 20% off your first order with code: <span class="banner__text--emphasis">First Nitro</span>
