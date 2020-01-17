@@ -184,7 +184,6 @@ ul li{
 }
 
 .learn-more__icons{
-    justify-content: space-evenly;
     display: flex;
     width: 20rem;
     justify-content: space-between;
@@ -192,6 +191,24 @@ ul li{
 
 .learn-more__icon{
     height: 3.4375rem;
+}
+
+.tilted-can-background{
+    background-image: url(../../assets/coldbrewbackground.png);
+    width: 27.1875rem;
+    height: 27.1875rem;
+}
+
+.cold-brew-background{
+    width:25rem;
+    position: absolute;
+    z-index:-1;
+}
+
+.tilted-can{
+    z-index: 2;
+    margin-left: 7rem;
+    margin-top: 4rem;
 }
 
 .discount-banner{
