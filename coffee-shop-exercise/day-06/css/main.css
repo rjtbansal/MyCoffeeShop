@@ -91,11 +91,12 @@ ul li{
     display: inline-block;
     margin-left: 8rem;
     padding-top: 3rem;
+    width: 50rem;
 }
 
 .coffee_description{
     font-size: 1.31rem;
-    width: 28%;
+    width: 55%;
 }
 
 .landing_page_button{
@@ -129,7 +130,7 @@ ul li{
 }
 
 .product {
-    width: 27.1875rem;
+    width: 20rem;
     height: 27.6875rem;
     border-radius: 0.625rem;
     box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgba(0, 0, 0, 0.25);
@@ -140,14 +141,6 @@ ul li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.product__image{
-    /* make image in the card central */
-    /* display: block; */
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-top: 3.5rem; */
 }
 
 .product-details{
@@ -176,11 +169,19 @@ ul li{
     margin: 1.5rem auto 0 auto;
 }
 
+.branding {
+    display: flex;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    justify-content: center;
+}
+
 .learn-more {
     display: flex;
     flex-direction: column;
     height: 27.1875rem;
     justify-content: space-evenly;
+    width: 50%;
 }
 
 .learn-more__icons{
@@ -212,13 +213,14 @@ ul li{
 }
 
 .discount-banner{
-    width: 71.0625rem;
     height: 11.875rem;
     background-color: rgba(0, 0, 0, 0.85);
-    font-size: 2.8125rem;
+    font-size: 2.5rem;
     color: white;
     text-align: center;
-    margin: 8rem auto;
+    margin-bottom: 4rem;
+    width: 80%;
+    margin-left: 12%;
 }
 
 .discount-banner__text{
