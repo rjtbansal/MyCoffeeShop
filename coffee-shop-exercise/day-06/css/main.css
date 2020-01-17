@@ -169,6 +169,12 @@ ul li{
     margin: 1.5rem auto 0 auto;
 }
 
+.branding-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .branding {
     display: flex;
     margin-top: 5rem;
@@ -213,18 +219,18 @@ ul li{
 }
 
 .discount-banner{
-    height: 11.875rem;
     background-color: rgba(0, 0, 0, 0.85);
     font-size: 2.5rem;
     color: white;
     text-align: center;
     margin-bottom: 4rem;
-    width: 80%;
-    margin-left: 12%;
+    margin-top: 2rem;
+    width: 63.75rem;
+    margin-left: 4rem;
 }
 
 .discount-banner__text{
-    padding-top: 4.5rem;
+    /* padding-top: 4.5rem; */
 }
 
 .banner__text--emphasis{
