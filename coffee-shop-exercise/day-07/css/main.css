@@ -16,7 +16,7 @@ header{
 }
 
 .header{
-    height: auto;
+    height: 45rem;
     background-color: #FFF0ED;
     padding-bottom: 2rem;
 }
@@ -27,8 +27,19 @@ header{
     align-items: center;
 }
 
-#logobeans_image {
+.logobeans_image {
     height: 5rem;
+}
+
+.footer-left-positioning{
+    position: absolute;
+    left: 4rem;
+}
+
+.footer-right-positioning {
+    position: relative;
+    top: 4rem;
+    left: 2rem;
 }
 
 
@@ -89,9 +100,9 @@ ul li{
 
 .coffee-intro{
     display: inline-block;
-    margin-left: 8rem;
-    padding-top: 3rem;
-    width: 50rem;
+    margin-left: 15rem;
+    padding-top: 5rem;
+    width: 40rem;
 }
 
 .coffee_description{
@@ -178,10 +189,10 @@ ul li{
 }
 
 .product-details__price {
-    /* text-align: center; */
     color: #5BACC3;
     font-size: 2.0625rem;
     margin: 0;
+    font-weight: bold;
 }
 
 .products-section__button{
@@ -221,9 +232,18 @@ ul li{
 }
 
 .tilted-can-background{
-    background-image: url(../../assets/coldbrewbackground.png);
-    width: 27.1875rem;
-    height: 27.1875rem;
+    position: relative;
+    width: 25rem;
+    height: 25rem; 
+}
+
+.tilted-can-border {
+    width: 25.5rem;
+    height: 25rem; 
+    border: 2px solid #5bacc3;
+    position: absolute;
+    right: 1rem;
+    bottom: 1.5rem;
 }
 
 .cold-brew-background{
@@ -245,8 +265,8 @@ ul li{
     text-align: center;
     margin-bottom: 4rem;
     margin-top: 2rem;
-    width: 63.75rem;
-    margin-left: 4rem;
+    width: 68rem;
+    margin-right: 5rem;
 }
 
 .banner__text--emphasis{
@@ -257,6 +277,7 @@ ul li{
     height: auto;
     background-color: #FFF0ED;
     padding-bottom: 2rem;
+    position: relative;
 }
 
 .footer__item {
