@@ -99,6 +99,25 @@ ul li{
     width: 55%;
 }
 
+.button-detail{
+    position: relative;
+}
+.button-border{
+    border: 2px solid black;
+    width: 11.25rem;
+    height: 3.44rem;
+    position: absolute;
+    left: -4px;
+    bottom: 6px;
+}
+
+/* special case because its alignment is different */
+.view-all-button-border-positioning{
+    position: absolute;
+    left: 41.5rem;
+    bottom: 5px;
+}
+
 .landing_page_button{
     background-color: #5BACC3;
     width: 11.25rem;
@@ -106,6 +125,7 @@ ul li{
     cursor: pointer;
     color: #fff;
     font-size: 1.3125rem;
+    border-style: none;
 }
 
 .big_coffee_bag{
