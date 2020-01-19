@@ -44,7 +44,7 @@ header{
 
 
 .illustration{
-    height: 14.875rem;
+   padding-top: 2rem;
 }
 
 
@@ -110,7 +110,9 @@ ul li{
 
 .button-detail{
     position: relative;
+    padding-top: 1rem;
 }
+
 .button-border{
     border: 2px solid black;
     width: 11.25rem;
@@ -154,7 +156,7 @@ ul li{
 
 .products-section {
     background-color: #f7f7f7;
-    height: 40.625rem;
+    height: 42rem;
 }
 
 .product-header{
@@ -169,7 +171,7 @@ ul li{
 
 .product {
     width: 20rem;
-    height: 27.6875rem;
+    height: 28rem;
     border-radius: 0.625rem;
     box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgba(0, 0, 0, 0.25);
     background-color: #fff;
@@ -180,7 +182,12 @@ ul li{
 }
 
 .product-details{
-    width: 90%;
+    width: 100%;
+    background-color: #FFF0ED;
+    margin-top: 3.7rem;
+    padding: 0 1rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgba(0, 0, 0 , 0,25);
 }
 
 .product-detail{
