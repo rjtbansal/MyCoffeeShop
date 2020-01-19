@@ -338,6 +338,16 @@ ul li {
 .tilted-can {
   margin-left: 7rem;
   margin-top: 4rem;
+  cursor: pointer;
+}
+
+.tilted-can:hover {
+  -webkit-animation-name: rotate-can;
+          animation-name: rotate-can;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes background-color-change {

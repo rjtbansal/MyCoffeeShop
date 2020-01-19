@@ -274,6 +274,12 @@ ul li{
 .tilted-can{
     margin-left: 7rem;
     margin-top: 4rem;
+    cursor: pointer;
+    &:hover{
+        animation-name: rotate-can;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
 }
 
 
