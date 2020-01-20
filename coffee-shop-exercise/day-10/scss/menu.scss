@@ -1,0 +1,82 @@
+.coffee_background {
+    background: url('../../assets/coffee-circle.jpg') center/cover;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-detail-section{
+    position: relative;
+}
+.menu_title{
+    background-color: #393939;
+    color: #fff;
+    width: 17.8rem;
+    height: 11.56rem; 
+    font-size: 3.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-box {
+    width: 18rem;
+    height: 11.8rem;
+    border: 2px solid #60AEC4;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+}
+
+a.colored_link, .seperator, .price{
+    color: #5BACC3 ;
+}
+
+p.price{
+    margin:0;
+}
+
+
+.category{
+    background-color: #FFF0ED;
+}
+
+
+.cold_category {
+    background-color: #f7f7f7;
+}
+
+.category_title {
+    text-align: center;
+}
+
+.category__item{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.item__description {
+    font-size: 1.125rem;
+    font-style: italic;
+    width: 45%;
+    display: inline-block;
+}
+
+
+.discount_text{
+    font-size: 2.813rem;
+}
+
+.icon{
+    height: 3.125rem;
+}
+
+.nav-submenu{
+    
+        list-style: none;
+        padding: 0;
+        display: inline-block;
+        margin-left: 1rem;
+        vertical-align: middle; /*works only with inline-block*/
+}
